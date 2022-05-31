@@ -1,0 +1,20 @@
+{% extends 'main/layout.html' %}
+
+{% block title %} Сделать заказ {% endblock %}
+
+{% block content %}
+<div class="features">
+<h1>Оформить заказ приставки</h1>
+<form method="post">
+    {% csrf_token %}
+    {{form.titl}}<br>
+    {{form.gam}}<br>
+    {{form.numbers}}<br>
+    {{form.adres}}<br>
+    {{form.time}}<br>
+    {{form.wont}}<br>
+    <button type="submit" class="btn btn-success"> Закзать </button><br>
+</form>
+</div>
+
+{% endblock %}

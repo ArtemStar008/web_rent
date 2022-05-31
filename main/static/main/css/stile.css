@@ -1,0 +1,129 @@
+body{
+  background: white;
+
+}
+
+aside{
+ height: 100%;
+ float: left;
+ background: white;
+ width: 23%;
+ padding: 3%;
+ color: white;
+ border-right: 3px solid #3b06cc;
+ border-inline: 20px;
+ margin-top:-23px
+
+}
+aside img{
+    width: 150px;
+    margin-left: 10px;
+    position: relative;
+    top: -50px;
+}
+aside .logo {
+    color: #3b06cc;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: -80px;
+    left: 10px;
+}
+aside ul{
+    list-style: none;
+
+}
+aside a{
+    text-decoration: none;
+}
+aside ul li{
+    color: black;
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+    transition: transform 0.6s ease;
+    position: relative;
+    top: -100px;
+    left: -20px;
+}
+aside ul li:hover, aside ul a:hover{
+    color: #3b06cc;
+    text-decoration: none;
+    transform: scale(1.10);
+}
+
+aside .prokat{
+    color: black;
+    margin-left: 10px;
+}
+aside .prokat:hover{
+    color: #FFA500;
+    text-decoration: none;
+}
+aside .igrov{
+    color: black;
+    margin-left: 10px;
+}
+aside .igrov:hover{
+    color: #008000;
+    text-decoration: none;
+}
+aside .prist{
+    color: black;
+    margin-left: 10px;
+}
+aside .prist:hover{
+    color: #0000CD;
+    text-decoration: none;
+}
+aside .slogon{
+    position: relative;
+    top: -75px;
+}
+
+main .features{
+    float: left;
+    color: black;
+    margin-top: 100px;
+    text-align: center;
+    width:75%;
+    margin-top: 19px;
+}
+
+main .features_two{
+    float: left;
+    color: black;
+    margin-top: 100px;
+    text-align: center;
+    width:75%;
+    margin-top: 19px;
+
+}
+
+main .features h1 {font-size: 30px; color: #3b06cc;}
+main .features p {max-width: 400px; margin: 20px auto;}
+
+main .features_two h1 {font-size: 30px; color: #3b06cc;}
+main .features_two p {max-width: 400px; margin: 20px auto;}
+
+ .alert-primary{
+    float: left;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+    margin-left: 280px;
+}
+
+form{
+    margin-left: 23.5%;
+    width: 500px;
+    margin-top: 35px;
+}
+forma{
+    margin-left: 23.5%;
+    width: 500px;
+    margin-top: 35px;
+}
+new_form_reg{
+margin-left:120px;
+}
